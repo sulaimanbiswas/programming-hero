@@ -1,0 +1,41 @@
+h1 {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+    margin: 20px;
+}
+
+input:focus {
+    color: red;
+    font-size: 20px;
+}
+
+a:visited {
+    color: red;
+}
+
+li:first-child{
+    background-color: blue;
+}
+
+li:last-child{
+    background-color: cyan;
+}
+
+li:nth-child(2n){
+    color: darkblue;
+    background-color: darkorange;
+}
+li:nth-child(2n+1){
+    color: #fff;
+    background-color: black;
+}
+
+li::before{
+    content: "hello ";
+}
+
+li::after{
+    content: " nice";
+}
